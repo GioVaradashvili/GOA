@@ -1,0 +1,11 @@
+h1{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+h3{
+    color: aquamarine;
+    font-weight: 400;
+    background-color: crimson;
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 187, 0);
+}
+
+#label{
+    border: 2px solid rgb(143, 0, 0);
+}
+
+#table2th,
+#table2th{
+    border: 2px solid rgb(35, 0, 150);
+}
+
+td{
+    text-align: left;
+}
+
+th{
+    text-align: left;
+    background-color: aquamarine;
+}
