@@ -1,1 +1,0 @@
-# join nishnavs roca uertdebi saubars an rame msgavsi xolo replace nishnavs rodesac erti ragacis gardaqmna ginda sxva ramit mag: witeli moto ginda gadagebo lurjad 
