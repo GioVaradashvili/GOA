@@ -1,0 +1,1 @@
+# saklaso ar gvqonia bolo 26 is iyo
