@@ -37,6 +37,6 @@
 
 # 7
 
-fruit_list = ['kivi', 'soko', 'alucha', 'yurdzeni', 'vashli']
-fruit_list[2:4] = ['კივი', 'ცაცხვი']
-print(fruit_list) 
+# fruit_list = ['kivi', 'soko', 'alucha', 'yurdzeni', 'vashli']
+# fruit_list[2:4] = ['კივი', 'ცაცხვი']
+# print(fruit_list) 
