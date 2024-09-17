@@ -4,20 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Functions</title>
-    <script>
-        function greetMessage(message = "Hello!") {
-            return message;
-        }
-
-        function displayGreetMessage() {
-            let message = document.getElementById('defaultMessageInput').value;
-            if (message === '') {
-                message = 'Hello!';
-            }
-            let result = greetMessage(message);
-            document.getElementById('defaultMessageResult').innerText = result;
-        }
-    </script>
 </head>
 <body>
     <h1>Default Value Function</h1>
