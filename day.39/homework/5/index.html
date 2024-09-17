@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    <script>
+        function nickname(name) {
+            return name.slice(0, 3);
+        }
+
+        function displayNickname() {
+            let name = document.getElementById('nameForNickname').value;
+            let result = nickname(name);
+            document.getElementById('nicknameResult').innerText = 'Nickname: ' + result;
+        }
+    </script>
+</head>
+<body>
+    <h1>Nickname Function</h1>
+    <input type="text" id="nameForNickname" />
+    <button onclick="displayNickname()">Get Nickname</button>
+    <p id="nicknameResult"></p>
+</body>
+</html>

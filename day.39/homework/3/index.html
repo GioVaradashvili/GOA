@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions</title>
+    <script>
+        function isEven(num) {
+            return num % 2 === 0;
+        }
+
+        function displayEvenCheck() {
+            let num = parseInt(document.getElementById('evenInput').value);
+            let result = isEven(num);
+            document.getElementById('evenResult').innerText = 'Is Even: ' + result;
+        }
+    </script>
+</head>
+<body>
+    <h1>Even Check Function</h1>
+    <input type="number" id="evenInput" />
+    <button onclick="displayEvenCheck()">Check Even</button>
+    <p id="evenResult"></p>
+</body>
+</html>
