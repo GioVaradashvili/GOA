@@ -1,0 +1,196 @@
+body {
+    background-color: rgb(0, 84, 169);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainh1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+}
+
+.mainp {
+    color: rgb(0, 255, 183);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(84, 201, 255, 0.539);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+h5 {
+    color: rgb(0, 255, 174);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+}
+
+
+.contactform{
+    background-color: rgb(0, 0, 0)
+    
+}
+
+.firstlabel {
+    color: red;
+    
+}
+
+.infoh1 {
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+
+
+.contactus{
+    background-color: rgb(139, 171, 198);
+}
+
+.firstlabel{
+    color: rgb(0, 0, 0);
+}
+
+.submit{
+    background-color: rgb(0, 96, 120);
+    color: rgb(43, 255, 0)
+}
+
+.buy{
+    background-color: rgb(0, 40, 50);
+}
+
+.button1{
+    background-color: rgb(0, 96, 120);
+    color: rgb(43, 255, 0);
+}
+
+.pinfo {
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.body7{
+    background-color: rgb(0, 96, 120);
+}
+
+.ul1 {
+    text-transform: uppercase;
+}
+
+.ul2 {
+    text-transform: uppercase;
+}
+
+.infoh4 {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.button1{
+    background-color: rgb(0, 96, 120);
+    color: rgb(43, 255, 0);
+}
+
+.shecvla{
+    background-color: rgb(1, 41, 107);
+    
+}
+
+.woih1 {
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 150px;
+    text-transform: uppercase;
+}
+
+.woibody {
+    background-color: rgba(0, 85, 154, 0.845);
+}
+
+.button2{
+    background-color: white;
+    color: lime;
+    border: 2px solid lime;
+}
+
+.p1 {
+    color: rgb(0, 255, 85);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.p2{
+    color: rgb(0, 255, 55);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.p3{
+    color: rgb(68, 255, 0);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.p4{
+    color: rgb(0, 255, 76);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.p5{
+    color: rgb(255, 115, 0);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+.woih3{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
