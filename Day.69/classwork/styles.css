@@ -1,0 +1,70 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "aside sect1 sect2 sect3"
+        "aside content content content"
+        "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 150px auto 100px;
+    height: 100vh;
+    gap: 10px;
+}
+
+header {
+    grid-area: header;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.sect1 {
+    grid-area: sect1;
+    background-color: #add8e6;
+    text-align: center;
+    padding: 20px;
+}
+
+.sect2 {
+    grid-area: sect2;
+    background-color: #6c91b8;
+    text-align: center;
+    padding: 20px;
+}
+
+.sect3 {
+    grid-area: sect3;
+    background-color: #7fa8c7;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    grid-area: content;
+    background-color: #88b0d8;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #5a7fa8;
+    text-align: center;
+    padding: 20px;
+}

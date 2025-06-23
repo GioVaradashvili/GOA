@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5ece5; /* Light beige background */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            display: flex;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 800px;
+            width: 90%;
+        }
+
+        .card img {
+            width: 50%;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-content h2 {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #888;
+            margin: 0;
+        }
+
+        .card-content h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .card-content .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1e6932;
+        }
+
+        .card-content .original-price {
+            font-size: 16px;
+            color: #888;
+            text-decoration: line-through;
+            margin-left: 10px;
+        }
+
+        .card-content button {
+            margin-top: 20px;
+            background-color: #1e6932;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-content button:hover {
+            background-color: #145222;
+        }
+
+        .card-content button svg {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/400x400" alt="Perfume Image">
+        <div class="card-content">
+            <h2>Perfume</h2>
+            <h1>Gabrielle Essence Eau De Parfum</h1>
+            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <div>
+                <span class="price">$149.99</span>
+                <span class="original-price">$169.99</span>
+            </div>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 13H4a.5.5 0 0 1-.491-.408L1.607 4.607 1.11 2.5H.5a.5.5 0 0 1-.5-.5zm3.14 3l1.25 6.25H12.5l1.25-6.25H3.14zm2.01 7.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5zm5 0a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5z"/>
+                </svg>
+                Add to Cart
+            </button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Hover Animation</title>
+    <style>
+        /* ძირითადი სტილი */
+        .card {
+            width: 300px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 50px auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* hover ეფექტი */
+        .card:hover {
+            transform: translateY(-10px) rotateX(5deg);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* ბარათის სათაური */
+        .card h3 {
+            font-size: 20px;
+            margin: 15px 0;
+            color: #333;
+        }
+
+        /* ბარათის აღწერა */
+        .card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* ღილაკი ბარათზე */
+        .card button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .card button:hover {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3>Product Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac augue nec ipsum efficitur convallis.</p>
+        <button>Buy Now</button>
+    </div>
+</body>
+</html>

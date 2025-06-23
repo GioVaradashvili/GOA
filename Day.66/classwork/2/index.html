@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Prefixed Properties</title>
+    <style>
+        body {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+
+        /* Box 1: Using -webkit-box-reflect */
+        .box1 {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(255, 255, 255, 0.2), transparent);
+        }
+
+        /* Box 2: Using -webkit-text-stroke */
+        .box2 {
+            background: -webkit-linear-gradient(45deg, #6a11cb, #2575fc);
+            color: transparent;
+            -webkit-text-stroke: 2px white;
+        }
+
+        /* Box 3: Old linear-gradient syntax */
+        .box3 {
+            background: -webkit-linear-gradient(linear, left top, right bottom, color-stop(0%, #ff512f), color-stop(100%, #f09819));
+            background: linear-gradient(45deg, #ff512f, #19a5f0); /* fallback for modern browsers */
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">Box Reflect</div>
+    <div class="box box2">Text Stroke</div>
+    <div class="box box3">Old Gradient</div>
+</body>
+</html>

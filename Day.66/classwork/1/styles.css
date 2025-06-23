@@ -1,0 +1,92 @@
+:root {
+    --element-1-color: #fff;
+    --element-1-bg: #4CAF50;
+    --element-1-font-size: 18px;
+    --element-1-border: 2px solid #3e8e41;
+
+    --element-2-color: #000;
+    --element-2-bg: #FF5722;
+    --element-2-font-size: 20px;
+    --element-2-border: 2px solid #d84315;
+
+    --element-3-color: #fff;
+    --element-3-bg: #3F51B5;
+    --element-3-font-size: 16px;
+    --element-3-border: 2px solid #283593;
+
+    --element-4-color: #fff;
+    --element-4-bg: #FFC107;
+    --element-4-font-size: 22px;
+    --element-4-border: 2px solid #FFA000;
+
+    --element-5-color: #000;
+    --element-5-bg: #9C27B0;
+    --element-5-font-size: 18px;
+    --element-5-border: 2px solid #6A1B9A;
+
+    --border-radius: 8px;
+    --margin: 10px;
+    --padding: 20px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --position: relative;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.element-1 {
+    color: var(--element-1-color);
+    background-color: var(--element-1-bg);
+    font-size: var(--element-1-font-size);
+    border: var(--element-1-border);
+}
+
+.element-2 {
+    color: var(--element-2-color);
+    background-color: var(--element-2-bg);
+    font-size: var(--element-2-font-size);
+    border: var(--element-2-border);
+}
+
+.element-3 {
+    color: var(--element-3-color);
+    background-color: var(--element-3-bg);
+    font-size: var(--element-3-font-size);
+    border: var(--element-3-border);
+}
+
+.element-4 {
+    color: var(--element-4-color);
+    background-color: var(--element-4-bg);
+    font-size: var(--element-4-font-size);
+    border: var(--element-4-border);
+}
+
+.element-5 {
+    color: var(--element-5-color);
+    background-color: var(--element-5-bg);
+    font-size: var(--element-5-font-size);
+    border: var(--element-5-border);
+}
+
+.box {
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+    padding: var(--padding);
+    box-shadow: var(--box-shadow);
+    position: var(--position);
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transformations</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: #34dbd3;
+            margin: 50px auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .scale:hover {
+            transform: scale(1.5);
+        }
+
+        .rotate:hover {
+            transform: rotate(45deg);
+        }
+
+        .translate:hover {
+            transform: translate(50px, 50px);
+        }
+        .skew:hover {
+            transform: skew(20deg, 20deg);
+        }
+
+        .animation:hover {
+            transform: scale(1.3) rotate(15deg);
+        }
+    </style>
+</head>
+<body>
+    <h2>Hover over the square to see transformations</h2>
+
+    <div class="square scale"></div>
+    <div class="square rotate"></div>
+    <div class="square translate"></div>
+    <div class="square skew"></div>
+    <div class="square animation"></div>
+
+</body>
+</html>

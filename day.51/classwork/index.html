@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Block და Inline-block მაგალითები</title>
+    <style>
+        /* Inline ელემენტი */
+        .inline-example {
+            color: red;
+            margin: 0 10px;
+        }
+
+        /* Block ელემენტი */
+        .block-example {
+            width: 100%;
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* Inline-block ელემენტი */
+        .inline-block-example {
+            display: inline-block;
+            width: 150px;
+            height: 50px;
+            background-color: lightgreen;
+            margin: 5px;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        /* დამატებითი სტილები */
+        .container {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inline, Block და Inline-block მაგალითები</h1>
+    
+    <div class="container">
+        <h2>Inline მაგალითი</h2>
+        <p>ეს არის <span class="inline-example">inline</span> ელემენტი, რომელიც <span class="inline-example">ტექსტთან</span> მუშაობს.</p>
+    </div>
+
+    <div class="container">
+        <h2>Block მაგალითი</h2>
+        <div class="block-example">ეს არის block ელემენტი, რომელიც მთელ სიგანეს იკავებს.</div>
+        <div class="block-example">კიდევ ერთი block ელემენტი.</div>
+    </div>
+
+    <div class="container">
+        <h2>Inline-block მაგალითი</h2>
+        <div class="inline-block-example">ელემენტი 1</div>
+        <div class="inline-block-example">ელემენტი 2</div>
+        <div class="inline-block-example">ელემენტი 3</div>
+    </div>
+</body>
+</html>

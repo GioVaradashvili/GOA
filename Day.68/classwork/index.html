@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giorgi varadashvili | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="home">
+        <h1>Giorgi varadashvili</h1>
+        <p>Frontend Developer</p>
+        <a href="#contact" class="cta-btn">დამიკავშირდი</a>
+    </header>
+    <section id="about">
+        <h2>ჩემს შესახებ</h2>
+        <p>მე ვარ ... </p>
+        <img src="image.png" width="255" style="border-radius: 10px;">
+        <div class="skills">
+            <h3>ჩემი უნარები:</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>little bit of JavaScript</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>ჩემი პროექტები</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>მოკლე აღწერა</p>
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>მოკლე აღწერა</p>
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>დამიკავშირდი</h2>
+        <form action="submit-form.php" method="POST">
+            <input type="text" name="name" placeholder="სახელი" required>
+            <input type="email" name="email" placeholder="ელფოსტა" required>
+            <textarea name="message" placeholder="შეტყობინება" required></textarea>
+            <button type="submit">გაგზავნა</button>
+        </form>
+        <footer>
+            <p>Follow me:</p>
+            <a href="https://www.facebook.com/varadashvili.giorgi">Facebook</a>
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://github.com">GitHub</a>
+        </footer>
+    </section>
+</body>
+</html>

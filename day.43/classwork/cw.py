@@ -1,5 +1,26 @@
-msg = input("Input a meassage:")
+# Task 2: String Formatting
+template = "Hello, {name}. Welcome to {place}."
+formatted_string = template.format(name="Alice", place="Wonderland")
+print(formatted_string)
 
-result = msg.replace('#',' ')
+# Task 3: Joining Strings
+words = ["apple", "banana", "cherry"]
+fruit_string = ", ".join(words)
+print(fruit_string)
 
-print(result)
+# Task 4: Splitting a String
+sentence = "The quick brown fox jumps over the lazy dog."
+words_list = sentence.split()
+print(words_list)
+
+# Task 5: Replacing Substrings
+quote = "To be or not to be, that is the question."
+modified_quote = quote.replace("be", "code")
+print(modified_quote)
+
+# Task 6: Converting to Lowercase
+mixed_case = "PyThOn Is AwEsOmE!"
+lowercase_string = mixed_case.lower()
+print(lowercase_string)
+
+# Task 7: Converting to Uppercase

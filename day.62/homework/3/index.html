@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Zoom</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            opacity: 0.5;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .gallery img:hover {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/150" alt="Image 1">
+        <img src="https://via.placeholder.com/150" alt="Image 2">
+        <img src="https://via.placeholder.com/150" alt="Image 3">
+        <img src="https://via.placeholder.com/150" alt="Image 4">
+        <img src="https://via.placeholder.com/150" alt="Image 5">
+        <img src="https://via.placeholder.com/150" alt="Image 6">
+        <img src="https://via.placeholder.com/150" alt="Image 7">
+        <img src="https://via.placeholder.com/150" alt="Image 8">
+        <img src="https://via.placeholder.com/150" alt="Image 9">
+        <img src="https://via.placeholder.com/150" alt="Image 10">
+    </div>
+</body>
+</html>

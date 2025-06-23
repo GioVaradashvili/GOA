@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Varada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .about {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 80%;
+      max-width: 800px;
+    }
+
+    .about h1 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .about p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* ლეპტოპის დიზაინი */
+    @media (max-width: 1024px) {
+      .about {
+        max-width: 600px; /* ლეპტოპისთვის */
+      }
+      .about h1 {
+        font-size: 22px;
+      }
+      .about p {
+        font-size: 14px;
+      }
+    }
+
+    /* ტელეფონისთვის */
+    @media (max-width: 768px) {
+      .about {
+        width: 90%; /* ტელეფონისთვის */
+      }
+      .about h1 {
+        font-size: 20px;
+      }
+      .about p {
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="about">
+      <h1>About Varadashvili Giorgi</h1>
+      <p>
+       my name is Giorgi my last name is Varadashvili i from <b>georgia</b> and i am 15 years old i am <b>web developer</b> i study in gavazi public school and also study <b>GOAL-ORIENTED ACADEMY GOA</b></p>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

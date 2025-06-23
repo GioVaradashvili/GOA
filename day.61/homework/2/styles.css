@@ -1,0 +1,20 @@
+/* Hover ეფექტები */
+.square1:hover {
+    background-color: pink;
+    transform: rotate(45deg) scale(1.1);
+}
+
+.square2:hover {
+    background-color: lightblue;
+    transform: scale(1.5) translateY(-20px);
+}
+
+.square3:hover {
+    background-color: lightgreen;
+    transform: translateX(50px) rotate(30deg);
+}
+
+.square4:hover {
+    background-color: yellow;
+    transform: skew(20deg, 10deg) scale(1.3);
+}
