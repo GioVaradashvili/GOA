@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformations and Hover Effects</title>
+  <style>
+    .red-square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      transition: transform 0.5s;
+    }
+    .red-square:hover {
+      transform: translate(50px, 100px);
+    }
+
+    .green-circle {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      border-radius: 50%;
+      transition: transform 0.5s;
+    }
+    .green-circle:hover {
+      transform: rotate(45deg) scale(1.5);
+    }
+
+    .blue-rectangle {
+      width: 200px;
+      height: 100px;
+      background-color: blue;
+      transition: all 1.5s;
+    }
+    .blue-rectangle:hover {
+      background-color: orange;
+      width: 250px;
+      height: 150px;
+    }
+
+    .yellow-block {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      transition: transform 1.5s;
+    }
+    .yellow-block:hover {
+      transform: scale(1.5) rotate(90deg) translate(-40px, -40px);
+    }
+
+    .styled-button {
+      width: 150px;
+      height: 50px;
+      background-color: green;
+      color: white;
+      text-align: center;
+      line-height: 50px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.8s;
+    }
+    .styled-button:hover {
+      background-color: yellow;
+      color: black;
+      transform: scale(1.2) rotate(5deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="red-square"></div>
+  <br>
+  <div class="green-circle"></div>
+  <br>
+  <div class="blue-rectangle"></div>
+  <br>
+  <div class="yellow-block"></div>
+  <br>
+  <button class="styled-button">Click Me</button>
+</body>
+</html>

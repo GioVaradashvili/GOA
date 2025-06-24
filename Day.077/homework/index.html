@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base Apparel Coming Soon</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <div class="min-h-screen flex flex-col items-center justify-center px-6">
+
+    <header class="mb-8">
+      <img src="images/logo.svg" alt="Base Apparel Logo" class="w-40">
+    </header>
+    <section class="flex flex-col items-center max-w-2xl text-center">
+      <h1 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">We're coming soon</h1>
+      <p class="text-gray-600 text-sm md:text-lg mb-8">
+        Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+    </section>
+    <form class="flex flex-col md:flex-row items-center gap-4 w-full max-w-lg" id="emailForm">
+      <input
+        type="email"
+        placeholder="Email Address"
+        class="w-full md:flex-grow border border-gray-300 rounded-lg p-4 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500"
+        required
+      />
+      <button
+        type="submit"
+        class="bg-red-500 hover:bg-red-600 text-white rounded-lg px-6 py-4 font-bold transition-all"
+      >
+        Notify Me
+      </button>
+    </form>
+    <p id="errorMessage" class="hidden mt-4 text-red-500 text-sm">
+      Please provide a valid email address.
+    </p>
+  </div>
+  <img
+    src="images/hero-desktop.jpg"
+    alt="Hero Illustration"
+    class="hidden md:block absolute top-0 left-0 w-full h-screen object-cover z-[-1]"
+  >
+</body>
+</html>

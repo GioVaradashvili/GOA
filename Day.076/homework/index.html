@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base Apparel Coming Soon</title>
+</head>
+<body class="font-sans text-veryDarkGray bg-white">
+  <div class="flex flex-col items-center justify-center min-h-screen">
+    <header class="mb-10">
+      <img src="images/logo.svg" alt="Base Apparel" />
+    </header>
+    <main class="text-center max-w-md">
+      <h1 class="text-4xl font-bold text-darkGrayishRed mb-4">
+        We're coming soon
+      </h1>
+      <p class="text-grayishRed mb-8">
+        Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form class="flex flex-col gap-4">
+        <div class="relative">
+          <input
+            type="email"
+            placeholder="Email Address"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-softRed"
+          />
+          <img
+            src="images/icon-error.svg"
+            alt="Error"
+            class="hidden absolute top-1/2 right-3 transform -translate-y-1/2"
+          />
+        </div>
+        <button
+          type="submit"
+          class="w-full bg-softRed text-white py-3 rounded-lg hover:bg-red-500 transition"
+        >
+          Notify Me
+        </button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
